@@ -62,7 +62,7 @@ header {
 }
 
 #main-photo {
-    background-image: url("images/wall_print.jpg");
+    background-image: url("wall_print.jpg");
     grid-column: 1/3;
     grid-row: 1/3;
     background-position: center;
