@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+
+    <title>SeH Impresores - Contacto</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="main">
+        <header class="section">
+            <div id="main-photo">
+                <div id="title">
+                    <span>SeH Impresores</span>
+                    <br>
+                    <span>Impresión Offset y Digital</span>
+                </div>
+            </div>
+
+        </header>
+
+        <div class="navbar">
+            <a href="index.html"><i class="fa fa-fw fa-home"></i> Inicio</a>
+            <a href="gallery.html"><i class="fas fa-tags"></i> Galería</a>
+            <a href="history.html"><i class="fas fa-university"></i> Historia</a>
+            <a href="budget.html"><i class="fas fa-wallet"></i> Presupuestador</a>
+            <a href="#" class="active"><i class="fas fa-id-card-alt"></i> Contacto</a>
+        </div>
+    </div>
+    <div class="section" id="menu">
+        <div class="menuitem2" id="form">
+            <i class="far fa-paper-plane"></i>
+            <h2>Formulario de Contacto</h2>
+            <br>
+            <form name="web-form" action="/index.html" onsubmit="return validateForm()" method="post">
+
+                <h2>Nombre:</h2><input type="text" id="name" name="name" placeholder="Nombre" required><br>
+                <h2>Contacto:</h2><input type="text" id="contact" name="contact" placeholder="¿Cómo debemos contactarte?" required><br>
+                <h2>Mensaje:</h2><input type="text" id="msg" name="msg" placeholder="Introduzca su mensaje aquí..." required>
+                <br><br>
+
+                <input type="submit" value="Enviar" id="btn-send">
+            </form>
+
+        </div>
+
+        <div class="menuitem2" id="map">
+            <i class="far fa-building"></i>
+            <h2>Oficina Comercial</h2>
+            <br>
+            <li>Nuestra oficina comercial se encuentra en la zona de Mataderos, Capital Federal.</li>
+            <br>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7158.166332916092!2d-58.491463213698665!3d-34.65385268131425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x56acde1ba6b460ea!2sSeH%20Impresores!5e0!3m2!1ses!2sar!4v1635099883476!5m2!1ses!2sar"
+                width="80%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+
+    </div>
+    <div class="footer">
+        <div class="foot">
+            <a href="#" class=""><i class="fa fa-fw fa-home"></i> Inicio</a>
+            <a href="gallery.html" class=""><i class="fa fa-tags"></i> Catálogo</a>
+            <a href="contact.html" class=""><i class="fa fa-id-card-alt"></i> Contacto</a>
+        </div>
+        <div class="foot">
+            <a href="https://m.facebook.com/sehimpresores/?locale2=es_LA" class=""><i class="fab fa-facebook"></i>
+                Facebook</a>
+            <a href="https://www.instagram.com/sehimpresores/?hl=es" class=""><i class="fab fa-instagram"></i>
+                Instagram</a>
+            <a href="#" class=""><i class="fab fa-whatsapp"></i> Whatsapp</a>
+        </div>
+        <div class="foot">
+            <a href="mailto:sehimpresores@gmail.com?Subject=Consulta%20vía%20Web" class=""><i
+                    class="far fa-envelope"></i> Email</a>
+            <a href="#" class=""><i class="fas fa-phone"></i> Teléfono</a>
+            <a href="#" class=""><i class="fas fa-map-marked-alt"></i> Dirección</a>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
